@@ -38,8 +38,12 @@
             PaneDisplayMode="LeftFluent">
             <ui:NavigationView.ContentOverlay>
                 <Grid>
-                    <ui:BreadcrumbBar x:Name="BreadcrumbBar" Margin="42,32,42,20" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24"/>
-                    <ui:SnackbarPresenter x:Name="SnackbarPresenter" />
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="15*"/>
+                        <ColumnDefinition Width="776*"/>
+                    </Grid.ColumnDefinitions>
+                    <ui:BreadcrumbBar x:Name="BreadcrumbBar" Margin="27,32,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="24" Grid.Column="1"/>
+                    <ui:SnackbarPresenter x:Name="SnackbarPresenter" Grid.ColumnSpan="2" />
                 </Grid>
             </ui:NavigationView.ContentOverlay>
         </ui:NavigationView>

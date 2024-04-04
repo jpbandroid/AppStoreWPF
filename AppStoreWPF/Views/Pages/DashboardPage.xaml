@@ -24,7 +24,7 @@
         Height="400"
         CornerRadius="8,0,0,0">
             <Border.Background>
-                <ImageBrush ImageSource="/wpfui-icon.ico" Stretch="UniformToFill" />
+                <ImageBrush ImageSource="/AppStore-Logo.ico" Stretch="UniformToFill" />
             </Border.Background>
             <Border CornerRadius="8,0,0,0">
                 <Border.Background>
@@ -83,7 +83,7 @@
                         Margin="14"
                         VerticalAlignment="Center"
                         RenderOptions.BitmapScalingMode="HighQuality"
-                        Source="pack://application:,,,/wpfui-icon.ico" />
+                        Source="pack://application:,,,/AppStore-Logo.ico" />
                         <TextBlock
                         Grid.Row="0"
                         FontSize="16"
@@ -113,7 +113,7 @@
                         Margin="14"
                         VerticalAlignment="Center"
                         RenderOptions.BitmapScalingMode="HighQuality"
-                        Source="pack://application:,,,/wpfui-icon.ico" />
+                        Source="pack://application:,,,/AppStore-Logo.ico" />
                         <TextBlock
                         Grid.Row="0"
                         FontSize="16"
@@ -143,7 +143,7 @@
                         Margin="14"
                         VerticalAlignment="Center"
                         RenderOptions.BitmapScalingMode="HighQuality"
-                        Source="pack://application:,,,/wpfui-icon.ico" />
+                        Source="pack://application:,,,/AppStore-Logo.ico" />
                         <TextBlock
                         Grid.Row="0"
                         FontSize="16"
@@ -173,7 +173,7 @@
                         Margin="14"
                         VerticalAlignment="Center"
                         RenderOptions.BitmapScalingMode="HighQuality"
-                        Source="pack://application:,,,/wpfui-icon.ico" />
+                        Source="pack://application:,,,/AppStore-Logo.ico" />
                         <TextBlock
                         Grid.Row="0"
                         FontSize="16"
@@ -203,7 +203,7 @@
                         Margin="14"
                         VerticalAlignment="Center"
                         RenderOptions.BitmapScalingMode="HighQuality"
-                        Source="pack://application:,,,/wpfui-icon.ico" />
+                        Source="pack://application:,,,/AppStore-Logo.ico" />
                         <TextBlock
                         Grid.Row="0"
                         FontSize="16"

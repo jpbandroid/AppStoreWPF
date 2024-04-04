@@ -6,7 +6,7 @@ namespace AppStoreWPF.ViewModels.Windows
     public partial class MainWindowViewModel : ObservableObject
     {
         [ObservableProperty]
-        private string _applicationTitle = "WPF UI - AppStoreWPF";
+        private string _applicationTitle = "AppStoreWPF";
 
         [ObservableProperty]
         private ObservableCollection<object> _menuItems = new()
