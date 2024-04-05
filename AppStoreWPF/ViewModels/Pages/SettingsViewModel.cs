@@ -24,7 +24,7 @@ namespace AppStoreWPF.ViewModels.Pages
         private void InitializeViewModel()
         {
             CurrentTheme = ApplicationThemeManager.GetAppTheme();
-            AppVersion = $"UiDesktopApp1 - {GetAssemblyVersion()}";
+            AppVersion = $"AppStoreWPF - {GetAssemblyVersion()}";
 
             _isInitialized = true;
         }

@@ -52,6 +52,8 @@ namespace AppStoreWPF
                 services.AddSingleton<DataViewModel>();
                 services.AddSingleton<SettingsPage>();
                 services.AddSingleton<SettingsViewModel>();
+                services.AddSingleton<AppsPage>();
+                services.AddSingleton<GamesPage>();
             }).Build();
 
         /// <summary>
