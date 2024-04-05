@@ -11,12 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Resource Include="AppStore-Logo.ico">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.9.26.3" />
     <PackageReference Include="WPF-UI" Version="3.0.3" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0-preview.2.24128.5" />
@@ -24,12 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Assets\wpfui-icon-256.png" />
     <None Remove="Assets\wpfui-icon-1024.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Assets\wpfui-icon-256.png" />
     <Resource Include="Assets\wpfui-icon-1024.png" />
   </ItemGroup>
 
