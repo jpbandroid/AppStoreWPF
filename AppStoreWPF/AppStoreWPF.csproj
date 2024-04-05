@@ -18,11 +18,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Assets\wpfui-icon-1024.png" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Resource Include="AppStore-Logo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Assets\wpfui-icon-1024.png" />
+    <Resource Include="Assets\wpfui-icon-256.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

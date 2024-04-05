@@ -24,7 +24,7 @@
         Height="400"
         CornerRadius="8,0,0,0">
             <Border.Background>
-                <ImageBrush ImageSource="/AppStore-Logo.ico" Stretch="UniformToFill" />
+                <ImageBrush ImageSource="pack://application:,,,/AppStore-Logo.ico" Stretch="UniformToFill" />
             </Border.Background>
             <Border CornerRadius="8,0,0,0">
                 <Border.Background>
