@@ -19,9 +19,15 @@ namespace AppStoreWPF.ViewModels.Windows
             },
             new NavigationViewItem()
             {
-                Content = "Data",
-                Icon = new SymbolIcon { Symbol = SymbolRegular.DataHistogram24 },
-                TargetPageType = typeof(Views.Pages.DataPage)
+                Content = "Apps",
+                Icon = new SymbolIcon { Symbol = SymbolRegular.Apps24 },
+                TargetPageType = typeof(Views.Pages.AppsPage)
+            },
+            new NavigationViewItem()
+            {
+                Content = "Games",
+                Icon = new SymbolIcon { Symbol = SymbolRegular.Games24 },
+                TargetPageType = typeof(Views.Pages.GamesPage)
             }
         };
 
